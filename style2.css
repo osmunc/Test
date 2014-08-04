@@ -6,7 +6,7 @@ body,.firstheader,.headers-list,.para1{
 body{
    /* background-color: #E6E6E6;*/
     margin: 0;
-    background-color: #CCCCFF;
+    background-image: url(https://cloud.githubusercontent.com/assets/8304878/3785834/e6868b42-19ca-11e4-9871-05696e5a2e18.JPG);
     background-repeat: no-repeat;
     background-position: relative;
     background-size: 1500px 1000px;
@@ -15,22 +15,31 @@ body{
     text-align: center;
     color: black;
     /*color:#a9a9a9;*/
-    font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 32;
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 80px;
+    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+    font-size: 32;*/
 }
 .headers-list{
     direction:ltr;
     background-color:white;
     text-align: center;
-    font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 24;
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+    font-size: 24;*/
     color: rgb(150,150,255)
     
 }
 div.front-page p{
     text-align: center;
-    font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 30;
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+    font-size: 30;*/
     color: black;
     z-index:-1;
     margin:20px;
@@ -62,5 +71,4 @@ ul, li {
   list-style: none;
   padding: 0 0 0 8px
 }
-
 
