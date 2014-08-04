@@ -1,1 +1,65 @@
-css
+body,.firstheader,.headers-list,.para1{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body{
+   /* background-color: #E6E6E6;*/
+    margin: 0;
+    background-image: url(https://cloud.githubusercontent.com/assets/8304878/3785834/e6868b42-19ca-11e4-9871-05696e5a2e18.JPG);
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: 1500px 1000px;
+}
+.firstheader {
+    text-align: center;
+    color: black;
+    /*color:#a9a9a9;*/
+    font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+    font-size: 32;
+}
+.headers-list{
+    direction:ltr;
+    background-color:white;
+    text-align: center;
+    font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+    font-size: 24;
+    color: rgb(150,150,255)
+    
+}
+div.front-page p{
+    text-align: center;
+    font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+    font-size: 30;
+    color: black;
+    z-index:-1;
+    margin:20px;
+}
+.front-page{    
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    
+    width:420px;
+    height: 370px;
+    /*margin: 30px 50px;*/
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+a {
+  color: #660066;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:30
+}
+ul, li {
+  list-style: none;
+  padding: 0 0 0 8px
+}
+
