@@ -25,15 +25,7 @@ body{
     border-width:40px;
     
 }
-.thetext.H1 {
-    text-align: left;
-    color: black;
-    /*color:#a9a9a9;*/
-    font-family: 'Molengo', Georgia, Times, serif;
-    font-size: 40px;
-    line-height: 80px;
-    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 32;*/
+
 }
 .thelists{
     direction:ltr;
@@ -47,8 +39,8 @@ body{
 }
 div.thetext{
     position:absolute;
-    top: 50%;
-    left: 60%;
+    top: 20%;
+    left: 30%;
     height: 1000 px;
     width:800 px;
     text-align: left;
@@ -57,14 +49,24 @@ div.thetext{
     margin:20px;
     background-color:#EBEBFF;
 }
-div.thetext.p{
-    font-family: 'Lekton', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 25px;
-    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 30;*/
-    color: black;
-}
+    div.thetext.p{
+        font-family: 'Lekton', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+        font-size: 30;*/
+        color: black;
+        
+    div.thetext.H1 {
+        text-align: left;
+        color: black;
+        /*color:#a9a9a9;*/
+        font-family: 'Molengo', Georgia, Times, serif;
+        font-size: 40px;
+        line-height: 80px;
+        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+        font-size: 32;*/
+    }
 img{
     float:left;
     top:50%;
