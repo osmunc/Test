@@ -61,6 +61,7 @@ div.thetext{
 }
 
 img{
+    float:left;
     top:50%;
     left:40%;
     border:0px;
