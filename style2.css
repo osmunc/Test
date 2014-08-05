@@ -65,15 +65,17 @@ img{
     top:50%;
     left:40%;
     border:0px;
+    margin:20px;
     
 }
 
 a {
-  color: #660066;
+  color: white;
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
-  font-size:30
+  font-size:30;
+  margin:10px;
 }
 ul, li {
   list-style: none;
