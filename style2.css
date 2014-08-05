@@ -6,7 +6,8 @@ body,.firstheader,.headers-list,.para1{
 body{
    /* background-color: #E6E6E6;*/
     margin: 0;
-    background-color: #CCCCFF;
+    background-image:url(https://cloud.githubusercontent.com/assets/8304878/3805477/2cfc4666-1c37-11e4-82f2-7e8406ff8093.png);
+    /*background-color: #CCCCFF;*/
     background-repeat: no-repeat;
     background-position: relative;
     background-size: 1500px 1000px;
