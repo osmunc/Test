@@ -22,7 +22,7 @@ body{
     width:200px;
     height: 1000px;
     border-color:#EBEBFF;
-    border-width:10px;
+    border-width:40px;
     
 }
 .H1 {
@@ -49,7 +49,7 @@ body{
 }
 div.thetext{
     top: 50%;
-    left: 40%;
+    left: 60%;
     text-align: left;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -64,8 +64,8 @@ div.thetext{
 
 img{
     top:50%;
-    left:40;
-    border:0;
+    left:40%;
+    border:0px;
     
 }
 
