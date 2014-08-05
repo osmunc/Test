@@ -12,7 +12,7 @@ body{
     background-size: 1500px 1000px;
 }
 .thebanner{
-    background-color: #AD85FF;
+    background-color:#D0B9FF;
     position: absolute;
     top: 0%;
     left: 10%;
@@ -27,7 +27,7 @@ body{
 
 .thelists{
     direction:ltr;
-    background-color: #9999FF;
+    background-color: #D0B9FF;
     text-align: ltr;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
     font-size: 16px;
