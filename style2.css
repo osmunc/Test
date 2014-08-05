@@ -47,7 +47,9 @@ body{
     color: white
     
 }
-div.front-page p{
+div.thetext p{
+    top: 50%;
+    left: 40%;
     text-align: center;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
     font-size: 16px;
