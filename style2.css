@@ -25,7 +25,7 @@ body{
     border-width:40px;
     
 }
-.H1 {
+.thetext.H1 {
     text-align: left;
     color: black;
     /*color:#a9a9a9;*/
@@ -52,17 +52,19 @@ div.thetext{
     height: 1000 px;
     width:800 px;
     text-align: left;
+    
+    z-index:-1;
+    margin:20px;
+    background-color:#EBEBFF;
+}
+div.thetext.p{
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 25px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 30;*/
     color: black;
-    z-index:-1;
-    margin:20px;
-    background-color:#EBEBFF;
 }
-
 img{
     float:left;
     top:50%;
