@@ -1,4 +1,4 @@
-body,.firstheader,.headers-list,.para1{
+body,{
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -7,10 +7,21 @@ body{
    /* background-color: #E6E6E6;*/
     margin: 0;
     background-image:url(https://cloud.githubusercontent.com/assets/8304878/3805477/2cfc4666-1c37-11e4-82f2-7e8406ff8093.png);
-    *background-color: #CCCCFF;
+    background-color: #CCCCFF;
     background-repeat: no-repeat;
     background-position: relative;
     background-size: 1500px 1000px;
+}
+.thebanner{
+    background-color: #9999FF;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width:100px;
+    height: 1000px;
+    
 }
 .H1 {
     text-align: center;
