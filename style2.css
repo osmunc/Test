@@ -30,7 +30,7 @@ body{
     background-color: #D0B9FF;
     text-align: ltr;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     color: white
     
@@ -82,7 +82,7 @@ a {
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
-  font-size:30;
+  font-size:32;
   margin:10px;
 }
 ul, li {
