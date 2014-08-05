@@ -133,3 +133,12 @@ h2 {
         text-align: center;
         
 }
+.allResume{
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    height: 1000 px;
+    width:800 px;
+    margin:20px;
+    
+}
