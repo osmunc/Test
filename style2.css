@@ -76,6 +76,15 @@ img{
     margin:20px;
     
 }
+.internetlink a{
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:32;
+  margin:10px;
+    
+}
 
 a {
   color: white;
