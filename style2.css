@@ -107,27 +107,20 @@ h1 {
         font-size: 40px;
         line-height: 80px;
         margin:10px;
-        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-        font-size: 32;*/
     }
     
 h2 {
         text-align: left;
         color: black;
-        /*color:#a9a9a9;*/
         font-family: 'Molengo', Georgia, Times, serif;
         font-size: 20px;
         line-height: 25px;
         margin:10px;
-        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-        font-size: 32;*/
     }
 .subheader{
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
         font-size: 16px;
         line-height: 25px;
-        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-        font-size: 30;*/
         color: black;
         margin:10px;
         text-align: center;
@@ -142,3 +135,11 @@ h2 {
     margin:20px;
     
 }
+h3 {
+        text-align: center;
+        color: black;
+        font-family: 'Molengo', Georgia, Times, serif;
+        font-size: 40px;
+        line-height: 80px;
+        margin:10px;
+    }
