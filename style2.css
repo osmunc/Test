@@ -47,7 +47,7 @@ body{
     color: white
     
 }
-div.thetext p{
+div.thetext{
     top: 50%;
     left: 40%;
     text-align: center;
@@ -60,20 +60,12 @@ div.thetext p{
     z-index:-1;
     margin:20px;
 }
-.front-page{    
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    margin-top: -50px;
-    margin-left: -50px;
+
+img{
+    top:50%;
+    left:40;
+    border:0;
     
-    width:420px;
-    height: 370px;
-    /*margin: 30px 50px;*/
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 a {
