@@ -56,6 +56,7 @@ div.thetext{
         /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
         font-size: 30;*/
         color: black;
+        margin:10px;
     }
     
     div.thetext.H1 {
@@ -65,6 +66,7 @@ div.thetext{
         font-family: 'Molengo', Georgia, Times, serif;
         font-size: 40px;
         line-height: 80px;
+        margin:10px;
         /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
         font-size: 32;*/
     }
