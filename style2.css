@@ -21,6 +21,8 @@ body{
     margin-left: -50px;
     width:200px;
     height: 1000px;
+    border-color:#EBEBFF;
+    border-width:10px;
     
 }
 .H1 {
@@ -42,7 +44,7 @@ body{
     line-height: 25px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 24;*/
-    color: rgb(150,150,255)
+    color: white
     
 }
 div.front-page p{
