@@ -35,8 +35,8 @@ body{
 }
 .thelists{
     direction:ltr;
-    background-color:white;
-    text-align: center;
+    background-color: #9999FF;
+    text-align: ltr;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 25px;
