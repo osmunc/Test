@@ -18,6 +18,7 @@ body{
     font-family: 'Molengo', Georgia, Times, serif;
     font-size: 40px;
     line-height: 80px;
+    text-shadow:4px 4px 4px #aaa;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 32;*/
 }
