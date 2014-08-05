@@ -46,6 +46,7 @@ body{
     
 }
 div.thetext{
+    position:absolute;
     top: 50%;
     left: 60%;
     text-align: left;
