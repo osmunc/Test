@@ -99,3 +99,14 @@ ul, li {
         color: black;
         margin:10px;
     }
+h1 {
+        text-align: left;
+        color: black;
+        /*color:#a9a9a9;*/
+        font-family: 'Molengo', Georgia, Times, serif;
+        font-size: 40px;
+        line-height: 80px;
+        margin:10px;
+        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+        font-size: 32;*/
+    }
