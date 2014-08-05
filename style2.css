@@ -26,7 +26,7 @@ body{
     
 }
 .H1 {
-    text-align: center;
+    text-align: left;
     color: black;
     /*color:#a9a9a9;*/
     font-family: 'Molengo', Georgia, Times, serif;
@@ -50,7 +50,7 @@ body{
 div.thetext{
     top: 50%;
     left: 40%;
-    text-align: center;
+    text-align: left;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 25px;
