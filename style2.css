@@ -90,3 +90,12 @@ ul, li {
   padding: 0 0 0 8px
 }
 
+ p {
+        font-family: 'Lekton', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+        /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
+        font-size: 30;*/
+        color: black;
+        margin:10px;
+    }
