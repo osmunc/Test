@@ -139,13 +139,15 @@ h2 {
         text-align: center;
         
 }
-.allResume{
-    position:absolute;
+.allResume {
+    position: absolute;
     top: 20%;
-    left: 0%;
-    height:500 px;
-    width:200 px;
-    margin:20px;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -50px;
+    
+    width:600px;
+    height: 500px;
     
 }
 .outerResume{
