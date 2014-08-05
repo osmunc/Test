@@ -47,7 +47,7 @@ div.thetext{
     margin:20px;
     background-color:#EBEBFF;
 }
-    div.thetext.p{
+    div.theparatext {
         font-family: 'Lekton', Helvetica, Arial, sans-serif;
         font-size: 16px;
         line-height: 25px;
@@ -57,7 +57,7 @@ div.thetext{
         margin:10px;
     }
     
-    div.thetext.H1 {
+    .headertxt {
         text-align: left;
         color: black;
         /*color:#a9a9a9;*/
