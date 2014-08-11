@@ -34,6 +34,48 @@
 			
 	</div>	
 
+<!--> Starting Email scrip<-->
+
+<?php echo $message; ?>
+<form method="post" action="">
+<table>
+<tr>
+<td>
+e-mail
+</td>
+<td>
+<input name="email" value="<?php if (isset($_POST['email'])
+&& !empty($_POST['email'])) echo $_POST['email']; ?>">
+</td>
+</tr>
+<tr>
+<td>
+subject
+</td>
+<td>
+<input name="subject">
+</td>
+</tr>
+<tr>
+<td>
+message
+</td>
+<td>
+<textarea name="body"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp;
+</td>
+<td>
+<input type="submit" value="send" name="submit">
+</td>
+</tr>
+</table>
+</form>
+
+<!-->Endig email script<-->
 
 </body>
 </html>
