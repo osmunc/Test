@@ -56,8 +56,8 @@ div.front-page p{
     height: 500px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.3;
-    filter: alpha(opacity=.10); /* For IE8 and earlier */
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 a {
