@@ -17,7 +17,7 @@ body{
     /*color:#a9a9a9;*/
     /*font-family: 'Molengo', Georgia, Times, serif;*/
     font-family: 'Bree Serif', Georgia, serif;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
     text-shadow:4px 4px 4px #aaa;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
@@ -62,7 +62,7 @@ div.front-page p{
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.75;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+    filter: alpha(opacity=65); /* For IE8 and earlier */
 }
 
 a {
