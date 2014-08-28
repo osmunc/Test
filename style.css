@@ -15,7 +15,8 @@ body{
     text-align: center;
     color: black;
     /*color:#a9a9a9;*/
-    font-family: 'Molengo', Georgia, Times, serif;
+    /*font-family: 'Molengo', Georgia, Times, serif;*/
+    font-family: 'Medula One', cursive;
     font-size: 40px;
     line-height: 80px;
     text-shadow:4px 4px 4px #aaa;
@@ -26,7 +27,8 @@ body{
     direction:ltr;
     background-color:white;
     text-align: center;
-    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
+    font-family: 'Abel', sans-serif;
     font-size: 25px;
     line-height: 25px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
@@ -36,7 +38,8 @@ body{
 }
 div.front-page p{
     text-align: center;
-    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
+       font-family: 'Abel', sans-serif;
     font-size: 25px;
     line-height: 25px;
     font-weight:bold;
@@ -46,7 +49,8 @@ div.front-page p{
     z-index:-1;
     margin:20px;
 }
-.front-page{    
+.front-page{  
+    margin:20px;
     position: absolute;
     top: 20%;
     left: 30%;
