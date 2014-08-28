@@ -12,7 +12,8 @@ body{
     background-size: 1500px 1000px;
 }
 .thebanner{
-    background-color:#D0B9FF;
+    /*background-color:#D0B9FF;*/
+    background-color:#9999FF;
     position: absolute;
     top: 0%;
     left: 10%;
