@@ -18,7 +18,7 @@ body{
     /*font-family: 'Molengo', Georgia, Times, serif;*/
     font-family: 'Bree Serif', Georgia, serif;
     font-size: 35px;
-    line-height: 60px;
+    line-height: 50px;
     text-shadow:4px 4px 4px #aaa;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 32;*/
@@ -30,7 +30,7 @@ body{
     /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
-    line-height: 25px;
+    line-height: 30px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 24;*/
     color: rgb(150,150,255)
@@ -57,8 +57,8 @@ div.front-page p{
     margin-top: -50px;
     margin-left: -50px;
     margin-bottom: -50px;
-    width:600px;
-    height: 600px;
+    width:700px;
+    height: 400px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.75;
