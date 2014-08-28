@@ -50,7 +50,8 @@ div.thetext{
     background-color:#EBEBFF;
 }
     div.theparatext {
-        font-family: 'Lekton', Helvetica, Arial, sans-serif;
+        /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
+        font-family: 'Abel', sans-serif;
         font-size: 16px;
         line-height: 25px;
         /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
@@ -63,7 +64,8 @@ div.thetext{
         text-align: left;
         color: black;
         /*color:#a9a9a9;*/
-        font-family: 'Molengo', Georgia, Times, serif;
+        /*font-family: 'Molengo', Georgia, Times, serif;*/
+        font-family: 'Medula One', cursive;
         font-size: 40px;
         line-height: 80px;
         margin:10px;
@@ -105,7 +107,8 @@ ul, li {
 }
 
  p {
-        font-family: 'Lekton', Helvetica, Arial, sans-serif;
+        /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
+        font-family: 'Abel', sans-serif;
         font-size: 16px;
         line-height: 25px;
         /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
@@ -117,7 +120,8 @@ h1 {
         text-align: left;
         color: black;
         /*color:#a9a9a9;*/
-        font-family: 'Molengo', Georgia, Times, serif;
+        /*font-family: 'Molengo', Georgia, Times, serif;*/
+        font-family: 'Medula One', cursive;
         font-size: 40px;
         line-height: 80px;
         margin:10px;
@@ -127,7 +131,8 @@ h1 {
 h2 {
         text-align: left;
         color: black;
-        font-family: 'Molengo', Georgia, Times, serif;
+        /*font-family: 'Molengo', Georgia, Times, serif;*/
+        font-family: 'Medula One', cursive;
         font-size: 20px;
         line-height: 25px;
         margin:10px;
@@ -136,14 +141,16 @@ h4 {
         text-align: center;
         color: black;
         /*color:#a9a9a9;*/
-        font-family: 'Molengo', Georgia, Times, serif;
+        /*font-family: 'Molengo', Georgia, Times, serif;*/
+        font-family: 'Medula One', cursive;
         font-size: 60px;
         line-height: 80px;
         margin:10px;
         text-shadow: 2px 2px #aaa;
     }
 .subheader{
-    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
+        font-family: 'Abel', sans-serif;
         font-size: 16px;
         line-height: 25px;
         color: black;
