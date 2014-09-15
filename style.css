@@ -13,7 +13,7 @@ body{
 }
 .firstheader {
     text-align: center;
-    color: black;
+    color: white;/*This is where I made the change*/
     /*color:#a9a9a9;*/
     /*font-family: 'Molengo', Georgia, Times, serif;*/
     font-family: 'Bree Serif', Georgia, serif;
