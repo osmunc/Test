@@ -11,7 +11,7 @@ html{
   -o-background-size: cover;
   background-size: cover;
 }
-}
+
 /*body{
    /* background-color: #E6E6E6;*/
 /*    margin: 0;*/
@@ -21,7 +21,7 @@ html{
 /*    background-repeat: no-repeat;*/
 /*    background-position: relative;*/
 /*    background-size: 1500px 1000px;*/
-/*}*/*/
+/*}*/
 .firstheader {
     text-align: center;
     color: black;
