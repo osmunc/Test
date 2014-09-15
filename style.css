@@ -5,12 +5,11 @@ body,.firstheader,.headers-list,.para1{
 }
 
 html{
-    background-image: url(https://cloud.githubusercontent.com/assets/8304878/4278074/935cf196-3d14-11e4-961e-93621985a037.JPG);
+    background-image: url(https://cloud.githubusercontent.com/assets/8304878/4277930/61ca05a2-3d13-11e4-8734-c2016538ebe4.JPG);
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-border:20px;
 }
 
 /*body{
@@ -25,7 +24,7 @@ html{
 /*}*/
 .firstheader {
     text-align: center;
-    color: rgb(255,255,255); /* black;*/
+    color: #330000; /* black;*/
     /*color:#a9a9a9;*/
     /*font-family: 'Molengo', Georgia, Times, serif;*/
     font-family: 'Bree Serif', Georgia, serif;
@@ -45,7 +44,7 @@ html{
     line-height: 30px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 24;*/
-    color:rgb(255,255,255); /* rgb(150,150,255)*/
+    color:#660000; /* rgb(150,150,255)*/
     
 }
 div.front-page p{
@@ -57,7 +56,7 @@ div.front-page p{
     font-weight:bold;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 30;*/
-    color: rgb(255,255,255);/*rgba(0,0,0,1);*/
+    color: #330000;/*rgba(0,0,0,1);*/
     z-index:-1;
     margin:20px;
 }
@@ -71,14 +70,14 @@ div.front-page p{
     margin-bottom: -50px;
     width:700px;
     height: 400px;
-    background-color:black;/* #ffffff;*/
-    border: 1px solid black;
+    background-color:#FFFF99;/* #ffffff;*/
+    /*border: 1px solid black;*/
     opacity: 0.55;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 a {
-  color: #484848 /*#660066;*/
+  color: #660000 /*#660066;*/
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
