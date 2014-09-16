@@ -4,6 +4,7 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  backgroud-repeat: no-repeat;
 }
 
 body,{
@@ -21,7 +22,7 @@ body{
 }
 .thebanner{
     /*background-color:#D0B9FF;*/
-    background-color:#330000;
+    background-color:#B45736;
     position: absolute;
     top: 0%;
     left: 10%;
@@ -30,7 +31,7 @@ body{
     margin-right:-50px;
     width:250px;
     height: 900px;
-    border-color##FFFFCC/*:#EBEBFF;*/
+    border-color:#FFFFCC;/*:#EBEBFF;*/
     border-width:40px;
     border-syle:solid;
     overflow:hidden;
@@ -39,7 +40,7 @@ body{
 
 .thelists{
     direction:ltr;
-    background-color: #330000;
+    background-color: #B45736;
     text-align: ltr;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
@@ -60,7 +61,11 @@ div.thetext{
     
     z-index:-1;
     margin:20px;
-    background-color:#B45736;
+    background-color:white;
+    border-style:solid;
+    border-width:5px;
+    border-color:#48321A;
+    
 }
     div.theparatext {
         /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
@@ -179,7 +184,7 @@ h4 {
     margin-left: -50px;
     border-style:solid;
     border-width:5px;
-    border-color:#330000;
+    border-color#48321A;
     background-color:white;
     width:1100px;
     height: 4800px;
