@@ -70,7 +70,7 @@ div.front-page p{
     margin-bottom: -50px;
     width:700px;
     height: 400px;
-    background-color:white;/*#330000;*//* #ffffff;*/
+    background-color:#330000;/* #ffffff;*/
     /*border: 1px solid black;*/
     opacity: 0.45;
     filter: alpha(opacity=45); /* For IE8 and earlier */
