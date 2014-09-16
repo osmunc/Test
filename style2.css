@@ -41,8 +41,8 @@ body{
     border-width:40px;
     border-syle:solid;
     overflow:hidden;
-    margin-bottom: -5000px; /* any large number will do */
-    padding-bottom: 5000px;
+    margin-bottom: -500px; /* any large number will do */
+    padding-bottom: 500px;
     
 }
 
