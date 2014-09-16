@@ -199,10 +199,11 @@ h4 {
     width:1100px;
     height: 30px;
     /*margin-top: -50px;*/
-    margin-left: 0px;
+    margin: 0px;
     border-style:solid;
     border-width:5px;
-    border-color#48321A;
+    border-color:#48321A;
+    background-color:#AFAA7A;
 }
 
 .outerResume.thelists{
@@ -214,9 +215,9 @@ h4 {
     height:25px;
     line-height: 25px;
     color: white
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right:0px;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right:-50px;
     
 }
 
