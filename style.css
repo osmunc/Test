@@ -45,7 +45,7 @@ html{
     line-height: 30px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 24;*/
-    color:#48321A; /* rgb(150,150,255)*/
+    color:#4B45736; /* rgb(150,150,255)*/
     
 }
 div.front-page p{
@@ -71,14 +71,14 @@ div.front-page p{
     margin-bottom: -50px;
     width:700px;
     height: 400px;
-    background-color:#EDCE7C;/* #ffffff;*/
-    border: 5px solid #AFFAA7A;
-    opacity: 0.o;
+    background-color:white;/* #ffffff;*/
+    border: 5px solid Brown;
+    opacity: 0.0;
     filter: alpha(opacity=0); /* For IE8 and earlier */
 }
 
 a {
-  color: #81612E;/* #660000*/ /*#660066;*/
+  color: #B45736;/* #660000*/ /*#660066;*/
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
