@@ -45,7 +45,7 @@ html{
     line-height: 30px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 24;*/
-    color:#4B45736; /* rgb(150,150,255)*/
+    color:#B45736; /* rgb(150,150,255)*/
     
 }
 div.front-page p{
@@ -73,8 +73,8 @@ div.front-page p{
     height: 400px;
     background-color:white;/* #ffffff;*/
     border: 5px solid Brown;
-    opacity: 0.0;
-    filter: alpha(opacity=0); /* For IE8 and earlier */
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 a {
