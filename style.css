@@ -73,8 +73,8 @@ div.front-page p{
     height: 400px;
     background-color:white;/* #ffffff;*/
     border: 5px solid Brown;
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 a {
