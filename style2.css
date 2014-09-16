@@ -22,7 +22,7 @@ body{
 }
 .thebanner{
     /*background-color:#D0B9FF;*/
-    background-color:#B45736;
+    background-color:#AFAA7A;
     position: absolute;
     top: 0%;
     left: 10%;
@@ -30,7 +30,7 @@ body{
     margin-left: -50px;
     margin-right:-50px;
     width:250px;
-    height: 900px;
+    height: 1000px;
     border-color:#FFFFCC;/*:#EBEBFF;*/
     border-width:40px;
     border-syle:solid;
@@ -40,7 +40,7 @@ body{
 
 .thelists{
     direction:ltr;
-    background-color: #B45736;
+    background-color: #AFAA7A;
     text-align: ltr;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
@@ -74,13 +74,13 @@ div.thetext{
         line-height: 25px;
         /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
         font-size: 30;*/
-        color: black;
+        color: #48321A;
         margin:10px;
     }
     
     .headertxt {
         text-align: left;
-        color: black;
+        color: #48321A;
         /*color:#a9a9a9;*/
         /*font-family: 'Molengo', Georgia, Times, serif;*/
         font-family: 'Bree Serif', Georgia, serif;
@@ -131,12 +131,12 @@ ul, li {
         line-height: 25px;
         /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
         font-size: 30;*/
-        color: black;
+        color: #48321A;
         margin:20px;
     }
 h1 {
         text-align: left;
-        color: black;
+        color: #48321A;
         /*color:#a9a9a9;*/
         /*font-family: 'Molengo', Georgia, Times, serif;*/
         font-family: 'Bree Serif', Georgia, serif;
@@ -148,7 +148,7 @@ h1 {
     
 h2 {
         text-align: left;
-        color: black;
+        color: #48321A;
         /*font-family: 'Molengo', Georgia, Times, serif;*/
         font-family: 'Bree Serif', Georgia, serif;
         font-size: 20px;
@@ -157,7 +157,7 @@ h2 {
     }
 h4 {
         text-align: center;
-        color: black;
+        color: #48321A;
         /*color:#a9a9a9;*/
         /*font-family: 'Molengo', Georgia, Times, serif;*/
         font-family: 'Bree Serif', Georgia, serif;
@@ -171,7 +171,7 @@ h4 {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 25px;
-        color: black;
+        color: #48321A;
         margin:10px;
         text-align: center;
         
