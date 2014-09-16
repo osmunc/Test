@@ -24,7 +24,7 @@ html{
 /*}*/
 .firstheader {
     text-align: center;
-    color: #330000; /* black;*/
+    color: white; /* black;*/
     /*color:#a9a9a9;*/
     /*font-family: 'Molengo', Georgia, Times, serif;*/
     font-family: 'Bree Serif', Georgia, serif;
@@ -36,7 +36,7 @@ html{
 }
 .headers-list{
     direction:ltr;
-    background-color:white;
+    /*background-color:white;*/
     text-align: center;
     /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
     font-family: 'Roboto Condensed', sans-serif;
@@ -44,7 +44,7 @@ html{
     line-height: 30px;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 24;*/
-    color:#660000; /* rgb(150,150,255)*/
+    color:white; /* rgb(150,150,255)*/
     
 }
 div.front-page p{
@@ -56,7 +56,7 @@ div.front-page p{
     font-weight:bold;
     /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
     font-size: 30;*/
-    color: rgba(0,0,0,1);
+    color:white;/* rgba(0,0,0,1);*/
     z-index:-1;
     margin:20px;
 }
@@ -70,14 +70,14 @@ div.front-page p{
     margin-bottom: -50px;
     width:700px;
     height: 400px;
-    background-color:white;/* #ffffff;*/
+    background-color:white;/*#330000;*//* #ffffff;*/
     /*border: 1px solid black;*/
     opacity: 0.45;
     filter: alpha(opacity=45); /* For IE8 and earlier */
 }
 
 a {
-  color: #660000 /*#660066;*/
+  color: white;/* #660000*/ /*#660066;*/
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
