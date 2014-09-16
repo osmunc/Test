@@ -1,8 +1,8 @@
 html{
     background-image: url(https://cloud.githubusercontent.com/assets/8304878/4277930/61ca05a2-3d13-11e4-8734-c2016538ebe4.JPG);
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  /*-o-background-size: 100%;*/
+    -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
