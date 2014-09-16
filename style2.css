@@ -35,13 +35,14 @@ body{
     margin-top: -50px;
     margin-left: -50px;
     margin-right:-50px;
-    margin-bottom:-50px;
     width:250px;
     height: 100%;
     border-color:#FFFFCC;
     border-width:40px;
     border-syle:solid;
     overflow:hidden;
+    margin-bottom: -5000px; /* any large number will do */
+    padding-bottom: 5000px;
     
 }
 
