@@ -13,16 +13,6 @@ html{
    background-repeat:no-repeat;
 }
 
-/*body{
-   /* background-color: #E6E6E6;*/
-/*    margin: 0;*/
-/*    background-image: url(https://cloud.githubusercontent.com/assets/8304878/4278074/935cf196-3d14-11e4-961e-93621985a037.JPG);*/
-    /*background-image: url(https://cloud.githubusercontent.com/assets/8304878/4277930/61ca05a2-3d13-11e4-8734-c2016538ebe4.JPG);*/
-    /*background-image: url(https://cloud.githubusercontent.com/assets/8304878/3785834/e6868b42-19ca-11e4-9871-05696e5a2e18.JPG);*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: relative;*/
-/*    background-size: 1500px 1000px;*/
-/*}*/
 .firstheader {
     text-align: center;
     color: #48321A; /* black;*/
@@ -74,8 +64,25 @@ div.front-page p{
     background-color:white;/* #ffffff;*/
     border: 5px solid Brown;
     border-color: #48321A;
+    opacity: 1.00;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.outerpage{
+    margin:20px;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    margin-top: -55px;
+    margin-left: -55px;
+    margin-bottom: -50px;
+    width:800px;
+    height: 600px;
+    background-color:white;/* #ffffff;*/
+    border: 5px solid Brown;
+    border-color: #48321A;
     opacity: .60;
     filter: alpha(opacity=60); /* For IE8 and earlier */
+    
 }
 
 a {
