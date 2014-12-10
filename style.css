@@ -1,99 +1,42 @@
-body,.firstheader,.headers-list,.para1{
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
 }
 
-html{
-    background-image: url(https://cloud.githubusercontent.com/assets/8304878/4277930/61ca05a2-3d13-11e4-8734-c2016538ebe4.JPG);
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   background-repeat:no-repeat;
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
 }
 
-.firstheader {
-    text-align: center;
-    color: #48321A; /* black;*/
-    /*color:#a9a9a9;*/
-    /*font-family: 'Molengo', Georgia, Times, serif;*/
-    font-family: 'Bree Serif', Georgia, serif;
-    font-size: 30px;
-    line-height: 50px;
-    text-shadow:4px 4px 4px #aaa;
-    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 32;*/
-}
-.headers-list{
-    direction:ltr;
-    /*background-color:white;*/
-    text-align: center;
-    /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 25px;
-    line-height: 30px;
-    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 24;*/
-    color:#B45736; /* rgb(150,150,255)*/
-    
-}
-div.front-page p{
-    text-align: center;
-    /*font-family: 'Lekton', Helvetica, Arial, sans-serif;*/
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    line-height: 25px;
-    font-weight:bold;
-    /*font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,Sans-Serif;
-    font-size: 30;*/
-    color:#48321A;/* rgba(0,0,0,1);*/
-    z-index:-1;
-    margin:20px;
-}
-.front-page{  
-    margin:20px;
-    position: absolute;
-    top: 20%;
-    left: 27%;
-    margin-top: -55px;
-    margin-left: -55px;
-    margin-bottom: -50px;
-    width:700px;
-    height: 500px;
-    background-color:white;/* #ffffff;*/
-    border: 5px solid Brown;
-    border-color: #48321A;
-    opacity: 1.00;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-.outerpage{
-    margin:20px;
-    position: absolute;
-    top: 16%;
-    left: 25.5%;
-    margin-top: -55px;
-    margin-left: -55px;
-    margin-bottom: -50px;
-    width:750px;
-    height: 550px;
-    background-color:white;/* #ffffff;*/
-    border: 5px solid Brown;
-    border-color: #48321A;
-    opacity: .60;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-    
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
-a {
-  color: #B45736;/* #660000*/ /*#660066;*/
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: bold;
-  font-size:40
-}
-ul, li {
-  list-style: none;
-  padding: 0 0 0 8px
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
 }
 
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
